@@ -5,7 +5,7 @@
 # Site
 title: Nightingale0504's blog
 subtitle: ''
-description: ''
+description: 'Stay hungry, stay foolish.'
 keywords:
 author: Boxuan Zhang
 language: zh-CN
@@ -46,7 +46,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
@@ -105,3 +105,19 @@ deploy:
   type: 'git'
   repo: git@github.com:Nightingale0504/Nightingale0504.github.io.git
   branch: main
+
+post_end_tag:
+  enabled: true  # 是否开启文末的本文结束标记
+  icon: paw # 结束标记之间的图标
+
+symbols_count_time:
+  symbols: true # 统计单篇文章字数
+  time: true # 取消估算单篇文章阅读时间
+  total_symbols: true # 统计站点总字数
+  total_time: true # 取消估算站点总阅读时间
+
+search:
+  path: search.xml
+  field: post # 指定搜索范围，可选 post | page | all
+  format: html # 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more
+  limit: 10000
