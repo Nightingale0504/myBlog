@@ -104,3 +104,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo: git@github.com:Nightingale0504/Nightingale0504.github.io.git
+  branch: main
